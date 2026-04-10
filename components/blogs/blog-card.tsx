@@ -9,7 +9,7 @@ interface BlogCardProps {
 }
 
 export default function BlogCard({ blog }: BlogCardProps) {
-  const formattedDate = new Date(blog.date).toLocaleDateString("en-US", {
+  const formattedDate = new Date(blog.date).toLocaleDateString("pt-BR", {
     month: "long",
     day: "numeric",
     year: "numeric",
@@ -75,7 +75,7 @@ export default function BlogCard({ blog }: BlogCardProps) {
               {blog.readingTime && (
                 <span className="flex items-center gap-1">
                   <Icons.clock className="w-3.5 h-3.5" />
-                  {blog.readingTime} min read
+                  {blog.readingTime} min leitura
                 </span>
               )}
             </div>
@@ -84,7 +84,7 @@ export default function BlogCard({ blog }: BlogCardProps) {
               className="inline-flex items-center gap-0.5 text-xs font-medium text-muted-foreground group-hover:text-primary transition-colors duration-200"
               aria-hidden="true"
             >
-              Read
+              Ler
               <Icons.chevronRight className="w-3 h-3 transition-transform duration-200 group-hover:translate-x-0.5" />
             </span>
           </div>

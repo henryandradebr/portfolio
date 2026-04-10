@@ -88,7 +88,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
 
-  const formattedDate = new Date(post.date).toLocaleDateString("en-US", {
+  const formattedDate = new Date(post.date).toLocaleDateString("pt-BR", {
     month: "long",
     day: "numeric",
     year: "numeric",
@@ -129,7 +129,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     ...(post.readingTime && {
       timeRequired: `PT${post.readingTime}M`,
     }),
-    inLanguage: "en-US",
+    inLanguage: "pt-BR",
     isPartOf: {
       "@type": "Blog",
       name: `${siteConfig.authorName}'s Blog`,
@@ -257,7 +257,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {post.readingTime && (
                 <span className="flex items-center gap-1.5">
                   <Icons.clock className="w-4 h-4" />
-                  {post.readingTime} min read
+                  {post.readingTime} min leitura
                 </span>
               )}
             </div>
@@ -303,10 +303,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               )}
             >
               <Icons.chevronLeft className="w-4 h-4" />
-              All posts
+              Todos os posts
             </Link>
             <div className="text-sm text-muted-foreground">
-              Written by{" "}
+              Escrito por{" "}
               <Link
                 href={siteConfig.links.twitter}
                 target="_blank"

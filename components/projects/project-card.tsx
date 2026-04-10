@@ -33,7 +33,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
         <Link href={`/projects/${project.id}`} className="mt-auto">
           <Button variant={"default"} className="mt-2 w-full sm:w-auto">
-            Read more
+            Veja mais
             <Icons.chevronRight className="w-4 ml-1" />
           </Button>
         </Link>

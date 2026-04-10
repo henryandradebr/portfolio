@@ -32,17 +32,17 @@ export default function ProjectsPage() {
   const tabItems = [
     {
       value: "all",
-      label: "All",
+      label: "Todos",
       content: renderContent("all"),
     },
     {
       value: "personal",
-      label: "Personal",
+      label: "Análise de Dados",
       content: renderContent("personal"),
     },
     {
       value: "professional",
-      label: "Professional",
+      label: "Ciência de Dados",
       content: renderContent("professional"),
     },
   ];

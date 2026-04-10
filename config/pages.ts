@@ -18,32 +18,36 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Henrique Andrade's portfolio website.",
     },
   },
   skills: {
-    title: "Skills",
-    description: "Key skills that define my professional identity.",
+    title: "Skills e Tools",
+    description:
+      "As principais habilidades e ferramentas que definem minha identidade profissional.",
     metadata: {
       title: "Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Henrique Andrade's key skills that define his professional identity.",
     },
   },
   projects: {
-    title: "Projects",
-    description: "Showcasing impactful projects and technical achievements.",
+    title: "Projetos",
+    description:
+      "Alguns projetos que desenvolvi, focados em análise de dados e visualização.",
     metadata: {
       title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      description:
+        "Some projects I've developed, focused on data analysis and visualization.",
     },
   },
   contact: {
-    title: "Contact",
-    description: "Let's connect and explore collaborations.",
+    title: "Contato",
+    description:
+      "Entre em contato comigo para discutir oportunidades ou colaborações.",
     metadata: {
       title: "Contact",
-      description: "Contact Naman Barkiya.",
+      description: "Contact Henrique Andrade.",
     },
   },
   contributions: {
@@ -57,20 +61,20 @@ export const pagesConfig: PagesConfig = {
   },
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Henrique Andrade's resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
+      description: "Henrique Andrade's resume.",
     },
   },
   blogs: {
-    title: "Blogs",
+    title: "Últimos Posts",
     description:
-      "Thoughts on AI, software engineering, and building in public.",
+      "Confira os últimos posts sobre análise de dados, visualização e insights do setor.",
     metadata: {
       title: "Blogs",
       description:
-        "Naman Barkiya's blog — thoughts on AI, software engineering, and building in public.",
+        "Henrique Andrade's blog — thoughts on data analysis, visualization, and industry insights.",
     },
   },
   experience: {

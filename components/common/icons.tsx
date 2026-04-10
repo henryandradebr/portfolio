@@ -48,11 +48,16 @@ import {
   SiAngular,
   SiBootstrap,
   SiCss3,
+  SiDbeaver,
   SiExpress,
+  SiFigma,
+  SiGit,
   SiGmail,
+  SiGooglesheets,
   SiGraphql,
   SiHtml5,
   SiJavascript,
+  SiJupyter,
   SiLinkedin,
   SiMongodb,
   SiMui,
@@ -61,6 +66,10 @@ import {
   SiNetlify,
   SiNextdotjs,
   SiNodedotjs,
+  SiNumpy,
+  SiPandas,
+  SiPostgresql,
+  SiPython,
   SiReact,
   SiRedux,
   SiSocketdotio,
@@ -69,7 +78,23 @@ import {
   SiX,
 } from "react-icons/si";
 
+import { PiMicrosoftExcelLogoFill } from "react-icons/pi";
+import { TbPresentationAnalytics } from "react-icons/tb";
+import { VscVscodeInsiders } from "react-icons/vsc";
+
 export const Icons = {
+  python: SiPython,
+  postgresql: SiPostgresql,
+  pandas: SiPandas,
+  numpy: SiNumpy,
+  jupyter: SiJupyter,
+  googlesheets: SiGooglesheets,
+  dbeaver: SiDbeaver,
+  figma: SiFigma,
+  git: SiGit,
+  excel: PiMicrosoftExcelLogoFill,
+  vscode: VscVscodeInsiders,
+  powerbi: TbPresentationAnalytics,
   contact: Phone,
   gitRepoIcon: BookMarked,
   gitOrgBuilding: Building,

@@ -18,7 +18,7 @@ interface ProjectPageProps {
   }>;
 }
 
-const githubUsername = "namanbarkiya";
+const githubUsername = "henryandradebr";
 
 export default async function Project({ params }: ProjectPageProps) {
   const { projectId } = await params;
@@ -37,7 +37,7 @@ export default async function Project({ params }: ProjectPageProps) {
         )}
       >
         <Icons.chevronLeft className="mr-2 h-4 w-4" />
-        All Projects
+        Todos os Projetos
       </Link>
       <div>
         <time
@@ -80,7 +80,7 @@ export default async function Project({ params }: ProjectPageProps) {
             />
 
             <div className="flex-1 text-left leading-tight">
-              <p className="font-medium">{"Naman Barkiya"}</p>
+              <p className="font-medium">{"Henrique Andrade"}</p>
               <p className="text-[12px] text-muted-foreground">
                 @{siteConfig.username}
               </p>
@@ -107,7 +107,7 @@ export default async function Project({ params }: ProjectPageProps) {
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-2">
-          Description
+          Descrição
         </h2>
         {/* {<project.descriptionComponent />} */}
         <ProjectDescription
@@ -118,7 +118,7 @@ export default async function Project({ params }: ProjectPageProps) {
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
-          Page Info
+          Imagens
         </h2>
         {project.pagesInfoArr.map((page, ind) => (
           <div key={ind}>
@@ -150,7 +150,7 @@ export default async function Project({ params }: ProjectPageProps) {
           className={cn(buttonVariants({ variant: "ghost" }))}
         >
           <Icons.chevronLeft className="mr-2 h-4 w-4" />
-          All Projects
+          Voltar para Projetos
         </Link>
       </div>
     </article>

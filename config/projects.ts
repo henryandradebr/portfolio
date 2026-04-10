@@ -32,7 +32,7 @@ export const Projects: ProjectInterface[] = [
     id: "portfolio-template",
     companyName: "Portfolio Website (130+ GitHub stars)",
     type: "Personal",
-    category: ["Web Dev", "Frontend", "UI/UX"],
+    category: ["Data Analysis", "Power BI", "Data Visualization"],
     shortDescription:
       "Open-source Next.js portfolio template recognized and forked by developers worldwide, optimized for SEO/AEO and performance.",
     websiteLink: "https://nbarkiya.xyz",

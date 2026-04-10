@@ -63,13 +63,13 @@ export type ValidSkills =
   | "Framer Motion";
 
 export type ValidCategory =
-  | "Full Stack"
-  | "Frontend"
-  | "Backend"
-  | "UI/UX"
-  | "Web Dev"
-  | "Mobile Dev"
-  | "3D Modeling";
+  | "Data Analysis"
+  | "Data Visualization"
+  | "Power BI"
+  | "SQL"
+  | "Python"
+  | "Machine Learning"
+  | "Data Science";
 
 export type ValidExpType = "Personal" | "Professional";
 
