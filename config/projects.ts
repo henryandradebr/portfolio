@@ -72,7 +72,7 @@ export const Projects: ProjectInterface[] = [
     id: "convot",
     companyName: "Convot",
     type: "Personal",
-    category: ["Full Stack", "Backend", "Web Dev"],
+    category: ["Python", "Machine Learning", "Data Science"],
     shortDescription:
       "Production-ready AI chatbot platform that crawls, indexes, and embeds knowledge from PDFs/URLs/text to deliver source-grounded answers via a one-line widget.",
     techStack: ["Next.js", "React", "Node.js", "Typescript", "Python"],
@@ -103,7 +103,7 @@ export const Projects: ProjectInterface[] = [
     id: "niya-saas-template",
     companyName: "Niya SaaS Template (30+ GitHub stars)",
     type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
+    category: ["Python", "Data Analysis"],
     shortDescription:
       "Production-ready Next.js 15 template for developers and AI startups. Includes authentication, state management, beautiful UI components, and everything needed to build scalable SaaS applications.",
     websiteLink: "https://niya.nbarkiya.xyz",
@@ -152,7 +152,7 @@ export const Projects: ProjectInterface[] = [
     id: "portfolio-card",
     companyName: "Portfolio Card",
     type: "Personal",
-    category: ["Web Dev", "Frontend", "3D Modeling"],
+    category: ["Python", "Data Visualization"],
     shortDescription:
       "Forged an immersive 3D Portfolio Card utilizing the prowess of Three.js and Blender, where art and technology converge in an interactive masterpiece.",
     websiteLink: "https://card.namanbarkiya.xyz/",
@@ -203,7 +203,7 @@ export const Projects: ProjectInterface[] = [
     id: "the-super-focus",
     companyName: "TheSuperFocus",
     type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
+    category: ["Python", "Data Analysis"],
     shortDescription:
       "Pomodoro-inspired productivity web app with real-time sessions and recurring payments.",
     techStack: [
@@ -240,7 +240,7 @@ export const Projects: ProjectInterface[] = [
     id: "built-design",
     companyName: "Builtdesign",
     type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
+    category: ["Python", "Data Analysis"],
     shortDescription:
       "Developed and optimized a high-performing website catering to over 4000 users, emphasizing efficiency and maintainability.",
     websiteLink: "https://builtdesign.in",
@@ -312,7 +312,7 @@ export const Projects: ProjectInterface[] = [
     id: "the-super-quotes",
     companyName: "The Super Quotes",
     type: "Professional",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
+    category: ["Python", "Data Analysis"],
     shortDescription:
       "Elevated The Super Quotes app with JavaScript, React Native, APIs, Redux magic, and Google Play Store debut.",
     websiteLink:
@@ -378,7 +378,7 @@ export const Projects: ProjectInterface[] = [
     id: "apex-shopping",
     companyName: "Apex Shopping App",
     type: "Personal",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
+    category: ["Python", "Data Analysis"],
     shortDescription:
       "Developed a feature-rich mobile shopping application with admin panel, user authentication, and seamless product management using React Native and Firebase.",
     githubLink: "https://github.com/namanbarkiya/apex-shopping-app",
@@ -442,7 +442,7 @@ export const Projects: ProjectInterface[] = [
     id: "builtdesign-blogs",
     companyName: "Builtdesign Blogs",
     type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
+    category: ["Data Visualization"],
     shortDescription:
       "Crafted Builtdesign's vibrant Blogs Website using Netlify CMS and React for engaging content experiences.",
     websiteLink: "https://blog.builtdesign.in",
@@ -501,7 +501,7 @@ export const Projects: ProjectInterface[] = [
     id: "cirql-dashboard",
     companyName: "Cirql Dashboard",
     type: "Personal",
-    category: ["Web Dev", "Frontend", "UI/UX"],
+    category: ["Power BI"],
     shortDescription:
       "Created a dashboard project using React and Tailwind CSS, focusing on UI design and routing implementation.",
     websiteLink: "https://cirql-ui.namanbarkiya.xyz/",
@@ -544,7 +544,7 @@ export const Projects: ProjectInterface[] = [
     id: "inscript-hindi-typing",
     companyName: "Inscript Hindi Typing",
     type: "Personal",
-    category: ["Web Dev", "UI/UX"],
+    category: ["Python", "Data Analysis"],
     shortDescription:
       "Developed a user-friendly website for Inscript Hindi typing, addressing the need for a simple tool for Hindi writers to convey data digitally.",
     websiteLink: "https://hindityping.namanbarkiya.xyz",
