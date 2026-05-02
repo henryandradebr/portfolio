@@ -20,11 +20,11 @@ import { useModalStore } from "@/hooks/use-modal-store";
 
 const formSchema = z.object({
   name: z.string().min(3, {
-    message: "Name must contain at least 3 characters.",
+    message: "Nome deve conter pelo menos 3 caracteres.",
   }),
-  email: z.string().email("Please enter a valid email."),
+  email: z.string().email("Por valor, insira um email válido."),
   message: z.string().min(10, {
-    message: "Please write something more descriptive.",
+    message: "Por valor, escreva uma mensagem com pelo menos 10 caracteres.",
   }),
   social: z.string().url().optional().or(z.literal("")),
 });
@@ -40,7 +40,6 @@ export function ContactForm() {
       name: "",
       email: "",
       message: "",
-      social: "",
     },
   });
 
@@ -59,9 +58,9 @@ export function ContactForm() {
 
       if (response.status === 200) {
         storeModal.onOpen({
-          title: "Thankyou!",
+          title: "Obrigado!",
           description:
-            "Your message has been received! I appreciate your contact and will get back to you shortly.",
+            "Sua mensagem foi enviada com sucesso. Entrarei em contato em breve.",
           icon: Icons.successAnimated,
         });
       }
@@ -83,7 +82,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="Enter your name" {...field} />
+                <Input placeholder="Adicione seu nome" {...field} />
               </FormControl>
               {/* <FormDescription>
                                 This is your public display name.
@@ -99,7 +98,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="Enter your email" {...field} />
+                <Input placeholder="Adicione seu email" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -112,29 +111,13 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Message</FormLabel>
               <FormControl>
-                <Textarea placeholder="Enter your message" {...field} />
+                <Textarea placeholder="Escreva sua mensagem" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        <FormField
-          control={form.control}
-          name="social"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Social (optional)</FormLabel>
-              <FormControl>
-                <Input placeholder="Link for social account" {...field} />
-              </FormControl>
-              {/* <FormDescription>
-                                This is your public display name.
-                            </FormDescription> */}
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Enviar</Button>
       </form>
     </Form>
   );
